@@ -1,0 +1,76 @@
+{
+  "type": "Feature",
+  "id": "test-cor-cog.tif",
+  "bbox": [
+    -123.5,
+    46.5,
+    -121.49972222222222,
+    49.500277777777775
+  ],
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -123.5,
+          46.5
+        ],
+        [
+          -121.49972222222222,
+          46.5
+        ],
+        [
+          -121.49972222222222,
+          49.500277777777775
+        ],
+        [
+          -123.5,
+          49.500277777777775
+        ],
+        [
+          -123.5,
+          46.5
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "provider": "UW Geodesy Lab",
+    "datetime": "2017-02-19T02:01:16Z",
+    "eo:epsg": 4326,
+    "isce:master": [
+      "S1B_IW_SLC__1SDV_20170219T020116_20170219T020143_004363_007959_A899.zip"
+    ],
+    "isce:slave": [
+      "S1B_IW_SLC__1SDV_20170126T020117_20170126T020144_004013_006EE6_4410.zip"
+    ],
+    "isce:unwrapper": "snaphu_mcf",
+    "isce:swaths": [
+      1,
+      2,
+      3
+    ],
+    "isce:dem": "/Users/scott/Data/dems/demLat_N39_N53_Lon_W127_W116.dem.wgs84"
+  },
+  "links": {
+    "self": {
+      "rel": "self",
+      "href": "http://test-cog-isce2.s3-website-us-east-1.amazonaws.com/snohomish/test-cor-cog.json"
+    },
+    "catalog": {
+      "rel": "catalog",
+      "href": "http://test-cog-isce2.s3-website-us-east-1.amazonaws.com/snohomish/catalog.json"
+    }
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "s3://test-cog-isce2/test-cor-cog-thumb.png",
+      "type": "png"
+    },
+    "image": {
+      "href": "s3://test-cog-isce2/test-cor-cog.tif",
+      "type": "GeoTiff",
+      "cog": "True"
+    }
+  }
+}

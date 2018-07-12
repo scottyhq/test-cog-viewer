@@ -1,0 +1,19 @@
+{
+  "name": "Snohomish County Sentinel-1 InSAR",
+  "description": "Sentinel-1 InSAR processing output 2014-2018",
+  "links": [
+    {
+      "rel": "self",
+      "href": "http://test-cog-isce2.s3-website-us-east-1.amazonaws.com/snohomish/catalog.json"
+    },
+    {
+      "rel": "alternate",
+      "href": "http://test-cog-isce2.s3-website-us-east-1.amazonaws.com/snohomish/index.html",
+      "type": "html"
+    },
+    {
+      "rel": "parent",
+      "href": "http://test-cog-isce2.s3-website-us-east-1.amazonaws.com/catalog.json"
+    }
+  ],
+}

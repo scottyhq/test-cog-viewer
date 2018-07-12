@@ -1,0 +1,39 @@
+{
+  "name": "UW Sentinel-1 InSAR",
+  "description": "Interferometric Synthetic Aperture Radar (InSAR) processing results of Copernicus (http://www.esa.int/Our_Activities/Observing_the_Earth/Copernicus) Sentinel-1 data. Retrieved from ASF DAAC (https://www.asf.alaska.edu) 01 July 2018, processed by ESA. Derivative products processed with InSAR Scientific Computing Environment - ISCE (https://winsar.unavco.org/software/isce), using the dinoSAR Cloud-computing package (https://github.com/scottyhq/dinosar)",
+
+  "license": {
+    "name": "Creative Commons By Share Alike 4.0",
+    "short_name" : "CC-BY-SA-4.0",
+    "link" : "https://creativecommons.org/licenses/by-sa/4.0/legalcode",
+    "copyright": "UW Earth & Space Sciences Geodesy Lab"
+  },
+
+  "links": [
+    { "rel": "self", "href": "catalog.json" },
+    { "rel": "child", "href": "snohomish/catalog.json" },
+    { "rel": "alternate", "href": "index.html", "type":"html"}
+  ],
+
+  "contact": {
+
+    "name": "Scott Henderson",
+    "organization": "UW Earth & Space Sciences Geodesy Lab",
+    "email": "scottyh@uw.edu",
+    "url": "https://github.com/scottyhq/dinosar"
+  },
+
+  "formats": ["geotiff", "cog"],
+
+  "keywords": ["InSAR", "satellite"],
+  "homepage": "https://github.com/scottyhq/dinosar",
+
+  "provider": {
+      "scheme": "s3",
+      "region": "us-east-1",
+      "requesterPays": "false"
+  }
+
+
+
+}
